@@ -11,7 +11,7 @@
 }
 
 html {
-  overflow-x: hidden;
+  overflow-x: visible;
 }
 
 .download-btn-first {
@@ -193,7 +193,7 @@ html {
   padding: 70px;
   height: auto;
   width: 100%;
-  overflow: hidden;
+  
 }
 .fh5co-advantages-outer .span-perfect {
   color: #648cff;
@@ -463,11 +463,11 @@ html {
 .fh5co-reviews-outer {
   width: 100%;
   height: 400px;
-  padding: 70px;
+ 
   margin-top: 100px;
 }
 .fh5co-reviews-outer .fh5co-reviews-inner {
-  margin-top: 100px;
+  margin-top: 10px;
 }
 .fh5co-reviews-outer > h1 {
   color: #648cff;
@@ -497,7 +497,7 @@ html {
   width: 100%;
   height: 572px;
   background: url("../img/download-section-bg.jpg") no-repeat center;
-  margin-top: 120px;
+  
   overflow-x: hidden;
 }
 .fh5co-bottom-outer .fh5co-bottom-inner {
@@ -556,7 +556,7 @@ html {
 .footer-outer .footer-three-grid {
   width: 1140px;
   margin: 0 auto;
-  height: 50px;
+  height: 25px;
   text-align: center;
 }
 .footer-outer .column-1-3 {
