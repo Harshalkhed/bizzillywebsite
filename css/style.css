@@ -71,7 +71,7 @@ html {
 }
 .main-navbar-nav .nav-link {
   opacity: 1 !important;
-  margin: 0 35px;
+  margin: 0 30px;
   font-size: 0.5px;
   font-weight: 300;
 }
@@ -534,7 +534,7 @@ html {
 
 .footer-outer {
   width: 100%;
-  padding: 50px;
+  padding: 30px;
   height: 250px;
   background: #2e3149;
   overflow: hidden;
