@@ -11,7 +11,7 @@
 }
 
 html {
-  overflow-x: visible;
+  overflow-x: hidden;
 }
 
 .download-btn-first {
@@ -44,7 +44,7 @@ html {
   letter-spacing: 4px;
   position: relative;
   top: -5px;
-  font-weight: 500;
+  font-weight: 300;
 }
 
 .main-navbar-nav {
@@ -52,7 +52,7 @@ html {
 }
 .main-navbar-nav li {
   color: #fff;
-  opacity: .7;
+  
 }
 .main-navbar-nav .navbar-nav .nav-item a:hover {
   color: #234197 !important;
@@ -72,8 +72,8 @@ html {
 .main-navbar-nav .nav-link {
   opacity: 1 !important;
   margin: 0 35px;
-  font-size: 14.5px;
-  font-weight: 500;
+  font-size: 0.5px;
+  font-weight: 300;
 }
 
 .social-icons-header i {
@@ -126,6 +126,7 @@ html {
   right: 0px;
   top: 120px;
   height: 650px;
+  margin-left: 50px;
 }
 .to-top {
   background: white;
@@ -189,7 +190,7 @@ html {
 										ADVANTAGES
    ========================================================================================================== */
 .fh5co-advantages-outer {
-  margin-top: 200pxn;
+ 
   padding: 70px;
   height: auto;
   width: 100%;
@@ -200,6 +201,7 @@ html {
   text-transform: uppercase;
   font-size: 27px;
   letter-spacing: 1px;
+  margin-top: 200px;
 }
 .fh5co-advantages-outer .span-features {
   text-transform: uppercase;
@@ -695,7 +697,8 @@ html {
   }
 
   .fh5co-advantages-outer {
-    margin-top: 50px;
+
+    margin-top: 500px;
     padding-bottom: 0;
   }
 
