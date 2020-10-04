@@ -40,8 +40,15 @@
 
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
+	<script> function callModal(){
+		$('#myModal').modal({
+  	show: true
+});
+
+
+	}</script>
 </head>
-<body>
+<body onload="callModal()">
 	
 	<div>
 
@@ -98,7 +105,7 @@
 			<div class="row">
 	
 		<div style="margin-top: 100px;  "  class="fh5co-hero-inner col-lg-7 col-md-3" >
-			<h1 style="font-size:4vw;;" class="animated fadeIn wow" data-wow-delay="0.4s">Business Made Easy</h1>
+			<h1 style="font-size:3vw;;" class="animated fadeIn wow" data-wow-delay="0.4s">Business Made Easy</h1>
 			
 			<p style="text-align: justify;" class=" animated fadeIn wow" data-wow-delay="0.67s">
 				Bizzilly- As this term itself is self explanatory, this app is a search app displaying information pertaining to various businesses. Our goal has been to connect businesses with people across the globe. In this digital era, SecureTech leads with solutions that help you achieve your goals by reaching out to the community. 
@@ -187,6 +194,7 @@
 		</div>
 
 	</div>
+	
 
 
 	<!-- ==========================================================================================================
@@ -399,7 +407,39 @@
 	  </a>
 
 
-</div> <!-- main page wrapper -->
+</div> 
+
+  
+  <!-- The Modal -->
+  <div  class="modal modal fade	" id="myModal">
+	<div  class="modal-dialog">
+	  <div  style="padding: 20px; " class="modal-content">
+  
+		<!-- Modal Header -->
+		<div  style="background: chocolate;" class="modal-header ">
+			
+			<h4  class=" col-12 modal-title text-center">Offer</h4>
+			
+		  </div>
+  
+		<!-- Modal body -->
+		<div style="text-align: center; padding: 20px;" class="modal-body">
+			<b >
+				REGISTER ! RELAX !! REAP !!! <br>
+				Register your business with us today and get 3 months of your subscription free of cost.
+				Relax in the comfort of your place and reap.  
+				And let the customers find you.
+			</b>
+		</div>
+  
+		<!-- Modal footer -->
+		<div class="modal-footer">
+		  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+		</div>
+  
+	  </div>
+	</div>
+  </div><!-- main page wrapper -->
 <div class="cookie-container">
 	<p>
 	  We use cookies in this website to give you the best experience on our
